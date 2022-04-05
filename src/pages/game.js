@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
+import { Link } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 const data = {
   "👊": "✌️",
@@ -48,6 +49,7 @@ function Game() {
             </div>
           ))}
         </div>
+        <Link to="/">Home</Link>
       </div>
     </div>
   );

@@ -22,10 +22,25 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  display: flex;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.emoji {
+  overflow: hidden;
+  background-color: aliceblue;
+  border-radius: 5px;
+  display: flex;
+  font-size: 75px;
+  animation: App-logo-spin infinite 6s linear;
+}
+
+.emoji:hover {
+  background-color: blue;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
